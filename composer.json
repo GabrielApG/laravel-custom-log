@@ -1,5 +1,5 @@
 {
-    "name": "gabrielapg/validador-cpf-laravel",
+    "name": "gabrielapg/laravel-custom-log",
     "description": "Custom file Log in your Laravel application",
     "keywords": ["laravel", "log", "customLog"],
     "license": "MIT",
