@@ -1,0 +1,23 @@
+{
+    "name": "gabrielapg/validador-cpf-laravel",
+    "description": "Custom file Log in your Laravel application",
+    "keywords": ["laravel", "log", "customLog"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Ap. G",
+            "email": "gabrielstigma@yahoo.com.br"
+        }
+    ],
+    "require": {
+      "php": ">=5.5.9",
+        "gabrielapg/laravel-custom-log": "@dev"
+    },
+   "autoload": {
+     "psr-4": {
+       "Log\\": "src/"
+     }
+   },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
