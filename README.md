@@ -20,8 +20,10 @@ use CustomWriteLogs;
     $this->writeLog('customLog', 'description: Description your log');
 ```
 
-**First param define name file log and secound param define description log**
-***Level default INFO***
+**First param define name file log and secound param define description log.**
+**Level default INFO**
+
+[References logs and levels](https://laravel.com/docs/5.4/errors#logging)
 
 ### Example in Controller
 
@@ -29,9 +31,10 @@ use CustomWriteLogs;
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Controller;
 use Log\CustomWriteLogs;
 
-class ExampleController extends Request
+class ExampleController extends Controller
 {
     use CustomWriteLogs;
 
